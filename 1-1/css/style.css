@@ -1,0 +1,107 @@
+/* class memo
+    <div class="head"></div>
+    <div class="content">
+    <div class="left"></div>
+    <div class="top"></div>
+    <div class="center"></div>
+    <div class="right"></div>
+    <div class="down"></div>
+    <div class="foot"></div>
+*/
+.head{
+    background-color: #141f40;
+    height: 100px;
+    width: 400px;
+}
+.left{
+    background-color: #80bfa8;
+    height: 250px;
+    width: 150px;
+    float: left;
+}
+
+.right-all{
+    float: left;
+}
+
+.center-group{
+    float: left;
+    width: 150px;
+}
+.top{
+    background-color: #dbd400;
+    height: 50px;
+}
+.center{
+    background-color: #0093b7;
+    height: 100px;
+}
+
+.right{
+    background-color: #ff9e6b;
+    height: 150px;
+    width: 100px;
+    float: left;
+}
+.down{
+    background-color: #8c2727;
+    height: 100px;
+    width: 250px;
+    clear: left;
+}
+.foot{
+    background-color: #d98d30;
+    height: 100px;
+    width: 400px;
+    clear: left;
+}
+
+@media screen and (max-width: 767.9px) {
+    .head{
+        width: 300px;
+    }
+    .left{
+        width: 100px;
+    }
+    .center-group{
+        width: 125px;
+    }
+    .right{
+        width: 75px;
+    }
+    .down{
+        width: 200px;
+    }
+    .foot{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 479.9px) {
+    .head{
+        width: 150px;
+    }
+    .left{
+        width: 150px;
+        clear: left;
+    }
+    
+    .right-all{
+        clear: left;
+    }
+    
+    .center-group{
+        width: 150px;
+        clear: left;
+    }    
+    .right{
+        width: 150px;
+        clear: left;
+    }
+    .down{
+        width: 150px;
+    }
+    .foot{
+        width: 150px;
+    }
+}
